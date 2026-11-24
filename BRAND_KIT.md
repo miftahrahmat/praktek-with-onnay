@@ -16,7 +16,7 @@ Legenda:
 - ⚠️ **Masalah di lapangan (dugaan):** masjid belum menjadi tempat yang membuat orang betah. Contohnya ibadah selesai lalu masjid kosong, pemuda kurang terlibat, atau kegiatan dan fasilitas terbatas.
 - ⚠️ **Pembeda (dugaan):** gerakan yang dekat dengan anak muda dan akar lokal (nama berbahasa Sunda). Masjid diposisikan sebagai pusat kehidupan warga, bukan hanya tempat ibadah.
 - ⚠️ **Belum ada:** wilayah kerja, jumlah masjid, jumlah penerima manfaat, dan lembaga serupa. **Jangan mengarang angka, nama, atau capaian.**
-- ✅ **Logo:** belum ada. Tulis nama "Barudak Bageur" sebagai teks (lihat bagian Huruf). Jangan membuat logo tiruan.
+- ✅ **Logo:** monogram BB layout Sejajar (lihat bagian 6a).
 
 ## 2. Penerima manfaat ✅
 
@@ -84,7 +84,23 @@ Aturan:
 - Kontras ketebalan: judul sangat tebal dipadu teks tipis.
 - Caveat hanya untuk 2–5 kata, jangan untuk paragraf.
 - **Teks Arab wajib dicek kebenarannya** (harakat dan sumber ayat atau hadis) oleh orang yang kompeten sebelum terbit.
-- Nama lembaga sementara (sebelum ada logo): "BARUDAK BAGEUR" dalam Montserrat ExtraBold, warna Teal.
+
+## 6a. Logo ✅
+
+Monogram **BB** (dua huruf sejajar, berdempet) dengan tulisan latin **"Barudak Bageur"** melintang di atasnya. Tanpa tagline.
+
+| File | Pemakaian |
+|---|---|
+| `hasil/logo/final/logo-utama.svg` | Di atas latar terang (krem atau putih). BB Teal, tulisan latin Arang. |
+| `hasil/logo/final/logo-terbalik.svg` | Di atas latar Teal. BB Teal Muda `#588C89`, tulisan latin Krem. |
+| `hasil/logo/final/ikon-bb.svg` | Foto profil, stempel, dan ukuran kecil (< 200 px). BB saja, tanpa tulisan latin. |
+
+Font khusus logo (tidak dipakai untuk teks desain lain): **Playfair Display** Bold untuk BB dan **Great Vibes** untuk tulisan latin.
+
+Aturan:
+- Lebar minimal logo lengkap 200 px. Di bawah itu, pakai ikon BB.
+- Beri ruang kosong di sekeliling logo minimal setinggi setengah huruf B.
+- Jangan mengubah warna di luar dua versi di atas, memiringkan, meregangkan, memberi bayangan, atau menaruh logo di atas foto yang ramai.
 
 ## 7. Format ukuran
 
