@@ -13,7 +13,7 @@ import {
 import { Audio } from "@remotion/media";
 import "./fonts";
 import { F } from "./fonts";
-import { C, DUR, TEXT, TOTAL } from "./content";
+import { C, DUR, TEXT, TOTAL, VO_FILES, VO_OFFSET } from "./content";
 
 // ---------- util ----------
 const useIn = (delay = 0, damping = 200) => {
@@ -523,7 +523,7 @@ export const Reels: React.FC = () => {
   const s3 = s2 + DUR.kebutuhan;
   const starts = [0, DUR.hook, s2, s3, s3 + DUR.donasi];
   const frame = useCurrentFrame();
-  const vol = interpolate(frame, [0, 24, TOTAL - 45, TOTAL], [0, 0.9, 0.9, 0], {
+  const vol = interpolate(frame, [0, 24, TOTAL - 45, TOTAL], [0, 0.3, 0.3, 0], {
     extrapolateLeft: "clamp",
     extrapolateRight: "clamp",
   });
@@ -548,6 +548,11 @@ export const Reels: React.FC = () => {
         <Wipe key={s} at={s} />
       ))}
       <Audio src={staticFile("audio/backsound.wav")} volume={vol} />
+      {starts.map((s, i) => (
+        <Sequence key={VO_FILES[i]} from={s + VO_OFFSET}>
+          <Audio src={staticFile(`vo/${VO_FILES[i]}.wav`)} volume={1} />
+        </Sequence>
+      ))}
     </AbsoluteFill>
   );
 };

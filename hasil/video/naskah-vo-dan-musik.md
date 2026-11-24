@@ -1,7 +1,9 @@
 # Reels "Makmurkan Masjid": Naskah, VO, dan Backsound
 
-- **Format:** 1080 × 1920 px (9:16), 30 fps, **24 detik**
-- **File video:** [`makmurkan-masjid-reels.mp4`](makmurkan-masjid-reels.mp4) (sudah berisi backsound, VO belum direkam)
+> **Diperbarui:** naskah dan VO yang terpakai di video sekarang ada di [`narasi-v2.md`](narasi-v2.md) (VO sudah dibuat lewat Speko). Tabel di bawah adalah versi pertama, hanya untuk arsip.
+
+- **Format:** 1080 × 1920 px (9:16), 30 fps, **±25 detik**
+- **File video:** [`makmurkan-masjid-reels.mp4`](makmurkan-masjid-reels.mp4) (sudah berisi VO dan backsound)
 - **Proyek sumber:** [`../video-reels/`](../video-reels/)
 - **Ide inti:** pertanyaan yang dekat dengan jemaah ("betah nggak di masjid?"), lalu ajakan yang hangat. Tidak menyalahkan masjid, tidak memakai angka.
 

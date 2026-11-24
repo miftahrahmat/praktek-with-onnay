@@ -1,8 +1,8 @@
-"""Backsound orisinal 24 detik: pad hangat + petikan lembut (tanpa sampel berhak cipta).
+"""Backsound orisinal 25 detik: pad hangat + petikan lembut (tanpa sampel berhak cipta).
 Tempo 90 BPM, progresi C - G - Am - F, lalu resolusi di C. Mono -> stereo WAV 44.1 kHz."""
 import math, struct, wave, random
 SR = 44100
-DUR = 24.0
+DUR = 25.0
 N = int(SR * DUR)
 BPM = 90
 beat = 60 / BPM

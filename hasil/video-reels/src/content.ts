@@ -3,14 +3,18 @@
 
 export const FPS = 30;
 
-// Durasi adegan (frame). Total 720 frame = 24 detik.
+// Durasi adegan (frame), disesuaikan dengan panjang VO. Total 745 frame = ±24,8 detik.
 export const DUR = {
-  hook: 100,
-  program: 170,
-  kebutuhan: 170,
-  donasi: 150,
-  ajakan: 130,
+  hook: 110,
+  program: 180,
+  kebutuhan: 150,
+  donasi: 140,
+  ajakan: 165,
 } as const;
+
+// Mulai VO tiap adegan (frame setelah awal adegan) dan berkas VO
+export const VO_OFFSET = 12;
+export const VO_FILES = ["vo1", "vo2", "vo3", "vo4", "vo5"] as const;
 
 export const TOTAL = Object.values(DUR).reduce((a, b) => a + b, 0);
 
@@ -40,7 +44,7 @@ export const TEXT = {
   // DRAFT: diturunkan dari penerima manfaat yang sudah dikonfirmasi.
   // Ganti dengan kebutuhan spesifik dari pengurus bila sudah ada.
   kebutuhan: {
-    judul: "MASJID MAKMUR BUTUH KITA",
+    judul: "MASJID MAKMUR BUTUH TANGAN KITA",
     kartu: [
       { judul: "PEMUDA", isi: "ikut terlibat" },
       { judul: "JEMAAH", isi: "betah beribadah" },
